@@ -1,0 +1,29 @@
+{
+  "name": "push",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --watch --mode development"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsaiyuyes7/push3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsaiyuyes7/push3/issues"
+  },
+  "homepage": "https://github.com/tsaiyuyes7/push3#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
