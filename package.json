@@ -8,7 +8,6 @@
     "start": "webpack --mode development",
     "build": "webpack --mode production",
     "watch": "webpack --watch --mode development"
-
   },
   "repository": {
     "type": "git",
@@ -21,7 +20,8 @@
   },
   "homepage": "https://github.com/tsaiyuyes7/push3#readme",
   "devDependencies": {
-    "webpack": "^4.29.6"
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   },
   "dependencies": {
     "jquery": "^3.3.1"
